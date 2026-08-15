@@ -122,6 +122,7 @@ h1,h2,h3,h4,h5,h6,p{
 .banner_content p span{
     font-weight: 500;
 }
+
 .banner_btn{
     font-weight: 700;
     font-size: 16px;
@@ -131,6 +132,12 @@ h1,h2,h3,h4,h5,h6,p{
     border: none;
     background: #F53838;
     border-radius: 10px;
+    transition: all linear 0.3s;
+}
+
+.banner_btn:hover{
+    color: #F53838;
+    background: #FFFFFF;
 }
 
 .banner_img{
@@ -148,55 +155,67 @@ h1,h2,h3,h4,h5,h6,p{
 
 .counter_wrapper{
     width: 100%;
-    height: 150px;
-    box-shadow: 0 1.88px 53.56px 0 rgba(0, 0, 0, .25);
+    height: 190px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border-radius: 5px;
-    background-color: white;
-    
+    border-radius: 10px; 
+    box-shadow: 0 4px 100px 0 rgba(0, 0, 0, 0.25);   
 }
+
 .counter_item{
     display: flex;
     align-items: center;
-    gap: 17px;
+    gap: 34px;
     position: relative;
 }
+
 .counter_item.center::after{
     position: absolute;
     content: "";
-    width: 2px;
-    height: 100px;
-    background-color: #EEEFF2;
-    top: -15px;
+    top: -35px;
     left: -100%;
+    width: 2px;
+    height: 120px;
+    background: #EEEFF2;
 }
+
 .counter_item.center::before{
     position: absolute;
     content: "";
-    width: 2px;
-    height: 100px;
-    background-color: #EEEFF2;
-    top: -15px;
+    top: -35px;
     right: -100%;
-}
-.counter_item .heading{
-    font-size: 36px;
-    font-weight: 700;
-    color: #0B132A;
+    width: 2px;
+    height: 120px;
+    background: #EEEFF2;
 }
 
 .counter_item .icon{
-    width: 60px;
-    height: 60px;
-    background-color: #FFECEC;
+    width: 55px;
+    height: 55px;
+    background: #FFECEC;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .counter_item i{
     font-size: 24px;
+    color: #F53838;
+}
+
+.counter_item h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.counter_item p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
 }
 /* ==== Counter Section Style End ==== */
