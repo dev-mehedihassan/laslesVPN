@@ -676,3 +676,51 @@ h1,h2,h3,h4,h5,h6,p{
   color: #FFFFFF;
 }
 /* ==== Feedback Section Style End ==== */
+
+/* ==== Newsletter Section Style Start ==== */
+#newsletter {
+  padding: 60px 0;
+}
+
+.newsletter_wrapper {
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 58px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 30px 60px rgba(13, 10, 44, 0.08);
+}
+
+.newsletter_content h2 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 45px;
+  color: #0B132A;
+}
+
+.newsletter_content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  margin-top: 10px;
+}
+
+.subscribe_btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  background: #F53838;
+  padding: 17px 65px;
+  border-radius: 10px;
+  transition: all linear 0.3s;
+}
+
+.subscribe_btn:hover {
+  box-shadow: 0px 25px 45px rgba(245, 56, 56, 0.45);
+}
+/* ==== Newsletter Section Style End ==== */
